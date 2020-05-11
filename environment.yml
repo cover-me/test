@@ -1,12 +1,11 @@
-name: test
+name: python3
 channels:
-- conda-forge
+  - conda-forge
 dependencies:
-- python=3.6
-- kwant=1.3
-- holoviews=1.8.1
-- xarray=0.9.6
-- pandas=0.20.3
-- pytables=3.4.2
-- toolz=0.8.2
-- hpc05  # This is only needed if you use a PBS cluster with headnode, as on the TU Delft network
+  - python=3.6
+  - kwant=1.3
+  - holoviews=1.8.1
+  - xarray=0.9.6
+  - pandas=0.20.3
+  - pytables=3.4.2
+  - toolz=0.8.2
